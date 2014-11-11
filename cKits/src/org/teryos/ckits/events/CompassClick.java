@@ -13,7 +13,7 @@ public class CompassClick implements Listener{
 	
 	@EventHandler
 	public void onClick(PlayerInteractEvent e){
-		Player player = e.getPlayer();
+		Player player = e.fgetPlayer();
 		if(e.getPlayer().getItemInHand().getType() == Material.COMPASS){
 			player.playSound(player.getLocation(), Sound.ORB_PICKUP, 1, 1);
 			e.setCancelled(true);

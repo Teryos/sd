@@ -1,0 +1,9 @@
+name: cKits
+version: 1.0
+main: org.teryos.ckits.Main
+author: Teryos
+commands:
+     stats:
+     kit:
+     kits:
+     compass:
